@@ -1,4 +1,4 @@
-# dmenu-fontawesome 
+# dmenu-fontawesome 🕺
 
 Search an font awesome icon by name and copy it to the clipboard. Works best with a dmenu variant that does fuzzy search such as rofi, but it's compatible with plain dmenu.
 
