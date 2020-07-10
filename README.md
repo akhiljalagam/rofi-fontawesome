@@ -14,7 +14,7 @@ bindsym $mod+quotedbl exec path/to/dmenu-fontawesome
 
 ## Similar scripts
 
-* [dmenu-fontawesome](https://github.com/porras/dmenu-emoji). Search an emoji by name and copy it to the clipboard.
+* [dmenu-emoji](https://github.com/porras/dmenu-emoji). Search an emoji by name and copy it to the clipboard.
 * [emoji.sh](https://gist.github.com/markmandel/546fc099590f1c08fa936795ac9da143). One liner, requests emojis each time, no autocomplete
 * [rofimoji](https://github.com/fdw/rofimoji). Python-based, rofi only, can insert directly instead of copy&paste
 * [emoji-rofi-menu](https://github.com/rob-a-bolton/emoji-rofi-menu). Rofi only, can insert directly
