@@ -1,0 +1,7 @@
+#!/bin/bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+cd $DIR
+unicode=`cat unicode-list.txt | rofi -dmenu -i -markup-rows -p "" -columns 6 -width 100 -location 1 -lines 20 -bw 2 -yoffset -2 | cut -d\' -f2 | tail -c +4 | head -c -2`
+printf '\u'$unicode | xclip -selection c
+icon=`printf '\u'$unicode`
+notify-send -t 2000 "$icon copied!"
