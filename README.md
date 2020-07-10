@@ -7,8 +7,9 @@ If possible, it also sends a desktop notification for better user feedback.
 ## Usage with i3
 Clone the repo. Assign a keystroke in your i3 configuration:
 
-# ~/.config/i3/config
 ```
+# ~/.config/i3/config
+
 bindsym $mod+quotedbl exec path/to/dmenu-fontawesome
 ```
 
