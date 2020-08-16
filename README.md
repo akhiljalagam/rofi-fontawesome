@@ -1,4 +1,4 @@
-# dmenu-fontawesome 🕺
+# rofi-fontawesome 🕺
 
 Search an font awesome icon by name and copy it to the clipboard. Works best with a dmenu variant that does fuzzy search such as rofi, but it's compatible with plain dmenu.
 
@@ -12,7 +12,7 @@ Clone the repo. Assign a keystroke in your i3 configuration:
 ```
 # ~/.config/i3/config
 
-bindsym $mod+quotedbl exec path/to/dmenu-fontawesome
+bindsym $mod+quotedbl exec path/to/rofi-fontawesome
 ```
 
 ## Similar scripts
