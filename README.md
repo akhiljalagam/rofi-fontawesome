@@ -4,7 +4,7 @@ Search an font awesome icon by name and copy it to the clipboard. Works best wit
 
 If possible, it also sends a desktop notification for better user feedback.
 
-![Screenshot of usage with rofi](dmenu-fontawesome.png)
+![Screenshot of usage with rofi](rofi-fontawesome.png)
 
 ## Usage with i3
 Clone the repo. Assign a keystroke in your i3 configuration:
